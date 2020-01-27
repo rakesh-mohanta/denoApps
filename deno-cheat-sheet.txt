@@ -1,4 +1,4 @@
 Install deno binary from your VS Code Powersheel terminal
 >>iwr https://deno.land/x/install/install.ps1 -useb | iex
 >>deno --help
->>
+>>deno --allow-env --allow-net --allow-read index.ts (allow the environment and network for http request)
